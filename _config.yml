@@ -11,7 +11,7 @@ title                    : "Anders Austad"
 title_separator          : "-"
 name                     : "Anders Austad"
 description              : "Random things inspired by coding and naps"
-url                      : "https://anderaus.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://anderaus.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Anders Austad"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I like alpacas"
+  bio              : "Random things inspired by coding and naps. I like alpacas."
   location         : "Oslo, Norway"
   email            :
   uri              :
@@ -89,15 +89,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "anderaus"
   google_plus      :
   keybase          :
   instagram        : "anderaus1"
-  lastfm           :
+  lastfm           : "anderaus"
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "202108/anderaus" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
   twitter          : "anderaus"
