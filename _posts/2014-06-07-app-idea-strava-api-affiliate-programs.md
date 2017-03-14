@@ -8,7 +8,6 @@ tags:
   - affiliate 
   - running
 ---
-# App idea: Strava API + affiliate programs
 
 I buy a lot of running shoes. Sometimes new models, now and then new brands, but most of the time I stick to the ones I know and trust. One such shoe is the Asics DS Trainer. A new model is released every year. The last one I bought was model #19. Before that pair I’ve had the DS Trainer 18, the 17, the 16 and the 15. Hey, it’s a great shoe.
 
