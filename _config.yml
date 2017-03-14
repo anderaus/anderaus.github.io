@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Anders Austad"
+title                    : "Code + Running + Alpacas"
 title_separator          : "-"
 name                     : "Anders Austad"
-description              : "Random things inspired by coding and naps"
+description              : "Random things inspired by coding and naps. And alpacas."
 url                      : "https://anderaus.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

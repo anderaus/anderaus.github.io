@@ -22,7 +22,7 @@ There are a lot of apps for runners. RunKeeper, Nike+, Garmin Connect, Endomondo
 
 [Strava](http://www.strava.com) has a free, public [API](https://strava.github.io/api/) for developers. I can authenticate with Strava, perform a REST call and retrieve the total mileage on all my shoes. Here’s an outtake of the data from my Strava profile page:
 
-![Strava profile data](/images/060714_1540_AppideaStra1.png)
+![Strava profile data](/images/060714_1540_AppideaStra1.png){: .align-center}
 
 From this I can see that it’s about time to retire my DS Trainer 18’s. They’ve been heavily used so it’s fair to assume I like them and probably would buy something similar again. The app should detect this automatically on my behalf. I would like to be presented with the best price for this very model, it’s probably a bit dated and on sale somewhere in my area. Besides, running in worn out shoes can get me injured.
 
@@ -33,11 +33,11 @@ Combined with data about my runs, also available using the Strava API, I can see
 ## Mockups
 My first idea was to use the data from Strava with the Amazon API, hence this quick sketch:
 
-![Strava profile data](/images/060714_1540_AppideaStra2-198x300.png)
+![Strava profile data](/images/060714_1540_AppideaStra2-198x300.png){: .align-center}
 
 As I was playing around with the Bootstrap framework at the time, I also threw together this very rough sample web app (ignore the random heading):
 
-![Strava profile data](/images/060714_1540_AppideaStra3-300x273.png)
+![Strava profile data](/images/060714_1540_AppideaStra3-300x273.png){: .align-center}
 
 The sample app was using mocked up data only, but I find getting some simple visuals help immensely when evaluating the idea. In this case, I realized a “passive” web site won’t work at all. There has to be some kind of notification system that actively notifies the user about a worn-out shoe or new models. A user may probably visit the website once, login with the Strava account and check out some of the targeted offers, but onwards from there a notification system has to take over. This could be in the form of email, tweets, push notifications to mobile device or any other channel, but I believe it has to be active for it to have any value.
 
