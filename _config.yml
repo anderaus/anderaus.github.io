@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Anders' weblog'"
+title                    : "Anders' weblog"
 title_separator          : "-"
 name                     : "Anders Austad"
 description              : "Random things inspired by coding, naps and alpacas"
@@ -78,8 +78,8 @@ analytics:
 # Site Author
 author:
   name             : "Anders Austad"
-  avatar           : "/images/bio-photo.png"
-  bio              : "Random things inspired by coding and naps. I like alpacas."
+  avatar           : "/images/bio-photo.jpg"
+  bio              : "Random musings inspired by coding, naps and alpacas"
   location         : "Oslo, Norway"
   email            :
   uri              :
