@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Code + Running + Alpacas"
+title                    : "Anders' weblog'"
 title_separator          : "-"
 name                     : "Anders Austad"
-description              : "Random things inspired by coding and naps. And alpacas."
+description              : "Random things inspired by coding, naps and alpacas"
 url                      : "https://anderaus.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Anders Austad"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.png"
   bio              : "Random things inspired by coding and naps. I like alpacas."
   location         : "Oslo, Norway"
   email            :
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        : "anderaus1"
   lastfm           : "anderaus"
-  linkedin         :
+  linkedin         : "austad"
   pinterest        :
   soundcloud       :
   stackoverflow    : "202108/anderaus" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
