@@ -23,6 +23,6 @@ Luckily, the CRON expression respects the time zone of the web app if specified 
 
 ![Website time zone setting](/images/171107_WebsiteTimeZoneSetting.PNG){: .align-center}
 
-Valid values for time zones can be found here: https://technet.microsoft.com/library/cc749073(v=ws.10).aspx
+Valid values for time zones can be found [in this list](https://technet.microsoft.com/library/cc749073(v=ws.10).aspx).
 
 After adding the setting in the Azure Portal I just needed to change my CRON expression to Norwegian hours; <code>0 0 7,15 * * *</code>, and everything worked fine.
