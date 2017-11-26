@@ -1,6 +1,7 @@
 ---
 title: "App idea: Strava API + affiliate programs"
 date: 2014-06-07 16:16:01 -0600
+comments: true
 categories:
   - ideas
 tags: 
