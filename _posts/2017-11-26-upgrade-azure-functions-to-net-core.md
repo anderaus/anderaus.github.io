@@ -17,7 +17,7 @@ creating a new project you can select "Azure Functions v2" go get .NET Standard 
 However, there's currently no way to automatically migrate an existing Azure Functions project over to .NET Core. When opening an existing
 full framework Azure Function project, these are the available framework targets:
 
-![No standard framework available](/images/NoUpgradeForYou.png){: .align-center}
+![No standard framework available](/images/NoUpgradeForYou.PNG){: .align-center}
 
 To upgrade to .NET Core you will have to manually edit the `.csproj` files to target the correct framework and add a version
 element:
@@ -30,14 +30,14 @@ element:
 ```
 After reloading the project, these options should now be available:
 
-![Select net standard version](/images/CoreSelector.png){: .align-center}
+![Select net standard version](/images/CoreSelector.PNG){: .align-center}
 
 ### Side note
 
 .NET Standard does not support the `System.Configuration.ConfigurationManager` namespace, so any use of the ConfigurationManager needs to
 be switch to either Environment.GetEnvironmentVariable` or use the new config builder as described [here](https://blogs.msdn.microsoft.com/cjaliaga/2016/08/10/working-with-azure-app-services-application-settings-and-connection-strings-in-asp-net-core/).
 
-![ConfigurationManager not supported](/images/NoMoreConfigurationManager.png){: .align-center}
+![ConfigurationManager not supported](/images/NoMoreConfigurationManager.PNG){: .align-center}
 
 Change from
 `private static readonly string SlackWebhookUrl = ConfigurationManager.AppSettings["SlackWebhookUrl"];`
