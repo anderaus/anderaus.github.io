@@ -11,7 +11,7 @@ tags:
 ---
 
 As of Visual Studio 2017 Preview 4, the Azure Functions tooling supports .NET Core by targeting .NET Standard. When
-creating a new project you can select "Azure Functions v2" go get .NET Standard support.
+creating a new project you can select "Azure Functions v2" to get .NET Standard support.
 
 ![Net standard support](/images/NetStandardSupport.PNG){: .align-center}
 
