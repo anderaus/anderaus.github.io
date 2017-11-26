@@ -1,6 +1,7 @@
 ---
 title: "Upgrade Azure Functions to .NET Core"
 date: 2017-11-26 14:09:23 +0200
+comments: true
 categories:
   - quicktips
   - troubleshooting
