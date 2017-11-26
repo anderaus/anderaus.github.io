@@ -1,6 +1,7 @@
 ---
 title: "Schedule an Azure Function using local time"
 date: 2017-11-07 22:14:00
+comments: true
 categories:
   - troubleshooting
 tags: 
