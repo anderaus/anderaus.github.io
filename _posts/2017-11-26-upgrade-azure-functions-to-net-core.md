@@ -28,14 +28,14 @@ element:
   <AzureFunctionsVersion>v2</AzureFunctionsVersion>
 </PropertyGroup>
 ```
-After reloading the project, these options should now be available:
+After reloading the project, these options will available:
 
 ![Select net standard version](/images/CoreSelector.PNG){: .align-center}
 
 ### Side note
 
 .NET Standard does not support the `System.Configuration.ConfigurationManager` namespace, so any use of the ConfigurationManager needs to
-be switch to either Environment.GetEnvironmentVariable` or use the new config builder as described [here](https://blogs.msdn.microsoft.com/cjaliaga/2016/08/10/working-with-azure-app-services-application-settings-and-connection-strings-in-asp-net-core/).
+be switched to either `Environment.GetEnvironmentVariable` or use the new configuration builder as described [here](https://blogs.msdn.microsoft.com/cjaliaga/2016/08/10/working-with-azure-app-services-application-settings-and-connection-strings-in-asp-net-core/).
 
 ![ConfigurationManager not supported](/images/NoMoreConfigurationManager.PNG){: .align-center}
 
