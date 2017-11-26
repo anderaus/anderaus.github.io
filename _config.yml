@@ -11,16 +11,16 @@ title                    : "Anders' weblog"
 title_separator          : "-"
 name                     : "Anders Austad"
 description              : "Random things inspired by coding, naps and alpacas"
-url                      : "https://anderaus.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.AndersAustad.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : www-andersaustad-com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -70,9 +70,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-10597010-1
 
 
 # Site Author
@@ -81,7 +81,7 @@ author:
   avatar           : "/images/bio-photo.jpg"
   bio              : "Random musings inspired by coding, naps and alpacas"
   location         : "Oslo, Norway"
-  email            :
+  email            : post@andersaustad.com
   uri              :
   bitbucket        :
   codepen          :
@@ -93,7 +93,7 @@ author:
   google_plus      :
   keybase          :
   instagram        : "anderaus1"
-  lastfm           : "anderaus"
+  lastfm           :
   linkedin         : "austad"
   pinterest        :
   soundcloud       :
