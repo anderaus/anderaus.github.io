@@ -33,6 +33,10 @@ After reloading the project, these options will available:
 
 ![Select net standard version](/images/CoreSelector.PNG){: .align-center}
 
+### Set runtime version
+
+If you already have a deployed version of the Azure function before the upgrade, you probably have to adjust the `FUNCTIONS_EXTENSION_VERSION` app settings value. Set it to `beta` to be able to use the .NET Core 2.0 runtime, as described [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions).
+
 ### Side note
 
 .NET Standard does not support the `System.Configuration.ConfigurationManager` namespace, so any use of the ConfigurationManager needs to
